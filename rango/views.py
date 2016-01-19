@@ -121,6 +121,6 @@ def user_logout(request):
 ##Decorador para acceso a zona restringida:
 @login_required
 def restricted(request):
-    return HttpResponseRedirect('/rango/category/')
+    return HttpResponseRedirect('/rango/restringido/')
 
 
