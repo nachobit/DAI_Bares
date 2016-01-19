@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block registro %}
+
+{{ mensaje | safe }}
+<br>
+<form method="post" action="{% url 'registro' %}">		
+	  {% csrf_token %}
+	  {{ form.as_p }}
+      <input type="submit" name="Registro" value="Enviar" />
+</form>
+
+{% endblock %}

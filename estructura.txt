@@ -1,0 +1,10 @@
+myproject
+	--------myproject
+			----settings.py
+			----urls.py
+	--------bares (rango)
+			----urls.py
+			----views.py
+	--------static
+
+	--------templates

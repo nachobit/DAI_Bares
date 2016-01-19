@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block login %}
+
+<br>
+{{ mensaje | safe }}
+<br>
+<form method="post" action="{% url 'login' %}">
+	  {% csrf_token %}
+	  {{ form.as_p }}
+      <input type="submit" name="Login" value="Login" />
+</form>
+
+{% endblock %}
