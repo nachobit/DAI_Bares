@@ -2,7 +2,7 @@
 
 [Repositorio Github](https://github.com/nachobit/DAI_bares.git)
 
-[![Build Status](https://snap-ci.com/nachobit/DAI_Django_tango_rango/branch/master/build_image)](https://snap-ci.com/nachobit/DAI_Django_tango_rango/branch/master)
+[![Build Status](https://snap-ci.com/nachobit/DAI_bares/branch/master/build_image)](https://snap-ci.com/nachobit/DAI_bares/branch/master)
 
 [![Heroku](https://www.herokucdn.com/deploy/button.png)](https://baresdai.herokuapp.com/rango)
 
