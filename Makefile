@@ -18,4 +18,4 @@ Run Docker:
 	./docker.sh
 
 runserver:
-	nohup sudo python DAI/manage.py runserver 0.0.0.0:80
+	nohup sudo python manage.py runserver 0.0.0.0:80
