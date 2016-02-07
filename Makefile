@@ -8,14 +8,14 @@ install:
 test:
 	python manage.py test
 
-run:
-	gunicorn myproject.wsgi:application -b 0.0.0.0:80
+#run:
+#	gunicorn myproject.wsgi:application -b 0.0.0.0:80
 	
-Install Docker:
-	./install_docker.sh
+#Install Docker:
+#	./install_docker.sh
 
-Run Docker: 
-	./docker.sh
+#Run Docker: 
+#	./docker.sh
 
 runserver:
-	nohup sudo python manage.py runserver 0.0.0.0:80
+	nohup sudo python manage.py runserver 0.0.0.0:8000
