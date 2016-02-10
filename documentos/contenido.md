@@ -2,13 +2,13 @@
 
 
 
-Lo recomendable es NO tener los css de bootstrap en el repositorio, por limpieza, problemas y evitar archivos innecesarios. 
+Lo recomendable es NO tener los css de bootstrap en el repositorio, por limpieza, evitar posibles problemas y tener archivos innecesarios. 
 
 Lo correcto es usar [CDN](https://www.bootstrapcdn.com) y "linkar" los *css/js* directamente.
 
 A continuación se detallan las 2 formas de habilitar el contenido estático en la aplicación Django:
 
-####FORMA 1 (CORRECTA):####
+####FORMA 1 (MÁS CORRECTA):####
 
 - Instalar [*Cling*](https://pypi.python.org/pypi/dj-static) y añadirlo al archivo [requirements.txt](https://github.com/nachobit/DAI_bares/blob/master/requirements.txt):
 
@@ -58,7 +58,7 @@ A continuación se detallan las 2 formas de habilitar el contenido estático en 
 	
 	```
 
-####FORMA 2 (NO CORRECTA):####
+####FORMA 2 (MENOS CORRECTA):####
 
 - Instalar **Whitenoise** y añadirlo al archivo [requirements.txt](https://github.com/nachobit/DAI_bares/blob/master/requirements.txt):
 
