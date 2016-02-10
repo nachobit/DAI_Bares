@@ -12,7 +12,7 @@
 
 Este repositorio pertecene a: Ignacio Romero Cabrerizo.
 
-Práctica de la asignatura **DAI** para la creación de una aplicación *Django* basada en la presentación de los bares y las tapas. La aplicación está desplegada en el PaaS Heroku siguiendo el siguiente [tutorial](http://www.tangowithdjango.com/book17/index.html).
+Práctica de la asignatura **DAI** para la creación de una aplicación *Django* basada en la presentación de los bares y las tapas. La aplicación está desplegada en el PaaS Heroku basándose en el siguiente [tutorial](http://www.tangowithdjango.com/book17/index.html).
 
 ##DESPLIEGUE##
 
