@@ -13,7 +13,7 @@ Lo primero es instalar [Heroku toolbelt](https://toolbelt.heroku.com) junto con 
 - Definir el archivo [Procfile](https://github.com/nachobit/IV_PR_OpenOrder/blob/master/Procfile) para *decirle a Heroku que debe ejecutar*:
 	
 	```
-	web: gunicorn gettingstarted.wsgi --log-file -
+	web: gunicorn myproject.wsgi --log-file -
 	```
 
 - Definir el archivo [requirements](https://github.com/nachobit/IV_PR_OpenOrder/blob/master/requirements.txt) para que Heroku *reconozca la existencia de una aplicación*:
